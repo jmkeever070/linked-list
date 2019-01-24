@@ -1,0 +1,162 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+  border-style: solid;
+  display: flex;
+  height: 108vh;
+/*  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "left right" 
+  "left right" */
+}
+
+.left-side {
+/*  display:flex;
+  justify-content:center;
+  grid-area: left;
+*/  
+  background-color: #455A64;
+  width: 50%;
+}
+
+.left-info {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+}
+
+.words {
+  color: #ffffff;
+  font-size: 65px;
+  margin-top: 51%;
+}
+
+.logo {
+  height: 56px;
+  margin-right: 10px;
+}
+
+.input-boxes {
+  display: grid;
+  grid-gap: 33px;
+}
+
+.enter-button {
+  background-color: #FEC108;
+  color:#ffffff;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 800;
+  height: 31px;
+  width: 100%;
+  }
+
+.enter-button:hover {
+  background-color: #FFD773;
+}
+
+#website-title {
+font-size: 23px;
+height: 25px;
+padding-left: 10px;
+}
+
+#website-url {
+  font-size: 23px;
+  height: 25px;
+  padding-left: 10px;
+}
+
+.error {
+  margin-top: 29px;
+}
+
+.error-icon {
+  display: none;
+  width: 26px;
+}
+
+.right-side {
+  background-color: #D0D8DD;
+  width: 50%;
+}
+
+.card {
+  background-color: #ffffff;
+  border-color: #607D8B;
+  border: 2px solid;
+  height: 166px;
+  margin-left: 22px;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.card-bar-width {
+  padding-left: 18px;
+  width: 92%;
+}
+
+ h2 {
+  color: #455A64;
+}
+
+.url-border {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  color: #607D8B;
+  font-weight: 100;
+  height: 41px;
+  margin-bottom: 18px;
+  margin-top: -15px;
+  padding-top: 21px;
+}
+
+.url-border:hover {
+  font-weight: 800;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -27px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.but-style {
+  border-radius: 50%;
+  color: #455A64;
+  font-size: 13px;
+  height: 36px;
+  margin-top: 14px;
+  padding: 10px 28px;
+}
+
+.read {
+  border-radius: 50%;
+  color: #f05A28;
+  font-size: 13px;
+  height: 36px;
+  margin-top: 14px;
+  padding: 10px 28px;
+}
+
+.delete-button {
+  border-radius: 50%;
+  color: #455A64;
+  font-size: 13px;
+  height: 36px;
+  margin-top: -10px;
+  padding: 10px 28px;
+}
+
